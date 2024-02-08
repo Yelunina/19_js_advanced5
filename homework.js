@@ -2,7 +2,7 @@ let group = {
     title: 'Cohort 34.1',
     students: ['Iryna', 'Kateryna', 'Marina', 'Oksana', 'Tatiana'],
     showList: function () {
-        const show = function (name) {
+        const show = (name)=> {
             console.log(`${this.title}: ${name}`);
         }
         this.students.forEach(show);
